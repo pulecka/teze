@@ -1,19 +1,25 @@
 
-#Síťová analýza a střihová skladba
+#Filmový střih a síťová analýza
 
 ##Úvod
-Střih je již od počátků kinematografie zdrojem fascinace filmových teoretiků i tvůrců.
-Jedná se o prvek esenciálně filmový.
-Propojení následujících záběrů střihem, jejich vztah, emocianální dopad se staly předmětem množství analýz a teorií.
-Zkoumání střihu se omezuje primárně na navazující záběry.
-Relativně opomíjené je zkoumání celkové střihové skladby. Existují čistě kvantitavní studie například počtu střihů v rámci jednotlivých filmů a tedy porovnání jejich tempa a rytmu.
-Chybí však pohled na celkovou strukturu střihové skladby a vztahů mezi záběry, které nejsou v přímém sousedství, ani ve stejné scéně, ale přesto spolu mají určitý vztah.
-Tato práce si klade sa cíl prozkoumat strukturu střihové skladby a vazby mezi jednotlivými záběry napříč celým filmem. A na pomoc si bere teorii sítí. Teorie sítí umožňuje zobecnění
-Popsat celkovou strukturu střihové skladby nelze bez abstraktního konstruktu. Běžné filmy mají řádově tisíce záběrů a střihů.
+Střih je již od počátků kinematografie zdrojem fascinace filmových teoretiků i tvůrců. Jedná se výrazový prostředek esenciálně filmový - v žádném tehdejším médiu se podobný prvek nevyskytoval. Pro filmaře byl střih úplně novým souborem možností jak vytvářet v divácích zážitky. Experimentování se střihem a snaha o maximální využití jeho potenciálu byla klíčová pro mnoho významných kinematografických škol v 10. a 20. letech 20. století[1].
+Současně s ranými experimenty tvůrců na poli výrazových prostředků docházelo k rozvoji filmové teorie zkoumání jak tyto prostředky fungují a jaký mají dopad na diváka.[2] Výzkumy v oblasti střihu se primárně zabývají vztahem.
+
+Chybí však pohled na celkovou strukturu střihové skladby a vztahů mezi záběry, které nejsou v přímém sousedství, ani ve stejné scéně, ale přesto spolu mají určitý vztah. Střihovou skladbou jako celkem a její strukturou se prakticky nikdo nezaobírá. Základním problémem komplexního zkoumání střihové sklady je její rozsáhlost - běžný celovečerní film má zhruba 1500 - 3000 záběrů.[3] Pro zpracování a popsání takového množství informací nemá filmová věda (a obecně sociální a humanitní vědy) ani nástroje ani jazyk.
+
+Matematická teorie sítí poskytuje formální terminologii a metody na zkoumání téměř jakéhokoliv komplexního systému.[4] Pokud obsahuje soubor prvků, které mezi sebou mají vztahy, jedná se o síť a můžeme na zkoumání tohoto systému aplikovat teorii sítí. Konkrétní zkoumaná doména sítě a kvalitativní vlastnosti nejsou podstatné - důležitá je existence uzlů a hlavně vazeb mezi nimi. Aplikace univerzální formální matematické teorie při analýze komplexních systémů umožňuje použít při zpracování dat počítače a proces tak alespoň částečeně automatizovat. Množství nástrojů, programů či algoritmů je unirzálně použitelných a je možné je sdílet z jiných odvětví používající sítě při zkoumání střihové skladby.
+
+Další důvod je vizuální reprezentace dat.
+
+Domnívám se, že vhodnou aplikací teorie sítí při anylýze střihu je možné prozkoumat a popsat střihovou skladbu způsobem, který není konvenčními metodami filmové vědy možný a který může přinést unikátní vhledy a poznatky. Cílem této práce je jednak nastínit způsob fungování síťové teorie při zkoumání střihové skladby a následně ji aplikovat na několik testovacích subjektů, abych ověřil jestli skutečně tato metoda může obohatit pole filmové vědy o nové poznatky.
+
 V první části práce popíšu teoretické základy střihové skladby: k popsání vztahu mezi záběry použiju konstruktivistickou teorii percepční aktivity, pro popsání střihu jako stylistikého prvku teorii neoformalismu a pro popsání struktury střihové skladby již zmíněnou teorii sítí.
 V následující části popíšu jakým způsobem vzniká vztah mezi záběry.
-Poslední částí budou analýzy tří filmů: Monstrum, Dannyho parťáci a Dokonalý trik. Tyto snímky byly vybrány pro svou žánrovou rozmanitost - jedná se o horror, komedii a drama a zároveň mají všecny tři zajímavý, ozvláštňující způsob vyprávění což je činí vhodnými adepty pro zkoumání.
-Cílem práce je popsat nový náhled na zkoumání střihové skladby pomocí aplikace metod síťové teorie a ověřit jeho vhodnost na několika zkušebních snímcích.
+
+1. Střihové experimenty ruského filmaře Kulešova, crosscutting D. W. Griffitha, alegorie C. T. Dreyera.
+2. Sutura, formalismus.
+3. Bordwell The way hollywood tells it
+4. Jedná se o univerzální abstrakci - je možné ji použít na popsání tak rozdílných struktur jako jsou společenství lidí, skladba slov v románu či ekosystémy.
 
 ##Konstruktivismus
 Teoretickým východiskem této práce je konstruktivistická teorie percepční aktivity. Jedná se směr kognitivní psychologie vycházející z poznatků německého autora Hermanna von Helmholtze.7 Podle teorie konstruktivismu jsou příjem a zpracování informací aktivní, na výsledek zaměřené procesy.8 Percepce je proces vytváření a testování hypotéz.9 Organismus získává jednotlivá data z prostředí a ty porovnává s vytvořenými hypotézami. Samotné stimulace smyslových receptorů nemohou konečně určit vjem, protože jsou nekompletní a nejednoznačné. Organismus konstruuje percepční soud na základě nevědomých úsudků (inferences).10
@@ -39,6 +45,22 @@ k úspěšné mediované percepci19, tedy zpracování média způsobem zamý�
 
 ##Neoformalismus
 Neoformalistická filmová teorie je přistup ke zkoumání filmů, jejich tvorby a působení na diváka.20 Začíná se objevovat v 80. letech v textech představitelů Wisconsinské školy - Davida Bordwella, Janet Staigerpvé a Kristin Thompsonové. Základem neoformalismu je ruský literární formalismus, obohacený o konstruktivistickou teorii vnímání a novou filmovou historii soustředící se na podmínky tvorby a percepce.21 Neoformalistický výzkum vychází ze zkoumání samotného díla, na který jsou aplikovány metody textové analýzy - sledováním kategorií stylistiky, narativních metod, systémů a funkce dochází k odhalování fungování filmu a jeho působení na diváka.22
+
+Artistic form is best thou-9ht of in relation to the humarn being who wartches the play, reads the novel, listens to the piece of rnusic, or views the film.
+Percepce ve všech oblastech života je aktivní operací. Mysl neustále pracuje a porovnává smyslové vstupy s naučenými vzory a hledá řád, a . It is constantly seekin-9 order and significance, testin,--g the world for breaks in the habitr.ral pattern.
+Umělecká díla spoléhají na tuto dynamickou a organizující povahu lidského vnímání. Poskytují organizované příležitosti
+They pro- vide or-eanized occasions in which we exercise and develop our ability to pay attentron, to antrcrpate upcomlng events, to construct er whole out of parts and to feel an emotionatl response to that whole. The best answer to our question would seem to be that the artwork cues us to perform a specific activity.
+
+Among the problems that arise with an active heuristic with no fixed theoretical points is the problem of continually shifting objects of analysis.  Bordwell and Thompson say that they provide “stylistic/narrative devices” and “systems” which help the analyst identify conditions of production.  These categories provide teleological normative functions that poetic Neoformalism positions its object against.  In short, a film must be scrutinized both as a subject and within the range of genre it is positioned against.  This antagonism allows the analyst to provide indices of variance among the film in question as it is positioned against its normative counterparts.
+
+Bordwell and Thompson have constructed three expository models for the Neoformalist heuristic.  These include:
+
+1.  Rational-Agent Model–The purpose of which is to reconstruct the historical conditions present at the time of the filmmakers employment of his/her agency.
+
+2.  Institutional Model–the social and economic system of filmmaking examines the filmmaker’s “constraints” in filmmaking.  These would include, labor, economics, and technology available to the filmmaker.
+
+3.  Perceptual-Cognitive Model–This model attempts to explain the effects of film as it is constructed and against the inferences of the viewer.  These include elements of style, narrative norms and technique, as well as continuity editing.
+
 Pro neoformalisty je základem umění ozvláštnění, tedy rekontextualizace.23 Ozvláštnění vede diváka k tomu, aby se soustředil na vnímání, aby zapomněl na jeho praktickou vrstvu. Thompsonová zdůrazňuje, že film je výhradně umělým konstruktem s prvotním estetickým cílem, jež nemá žádné přirozené vlastnosti.24 Ozvláštnění je chápáno jako součást účinku díla.25 Neoformalisté užívají v této
 oblasti pojmu komplikovaná forma.26
 19 Gombrich 1979: 50. 20 Thompson 1998: 5. 21 Thompson 1998: 7. 22 Bordwell 1989: 382. 23 Thompson 1998: 9. 24 Thompson 1998: 10. 25 Thompson 1998: 11. 26 Thompson 1998: 11.
@@ -52,15 +74,81 @@ Neoformalismus je historicko-poetický směr - je zaměřen na procesy a konv
 31 Bordwell 1989: 371. 32 Bordwell 1989: 371. 33 Bordwell, Thompson 2007: 15 - 16
 
 ## Teorie sítí
-Teorie sítě formálně popisuje vztahy mezi jednotlivými prvky systému.
-Jedná se o univerzální abstrakci - je možné ji použít na popsání tak rozdílných struktur jako jsou společenství lidí, skladba slov v románu či ekosystémy.
-Základem sítě jsou uzly. Jedná se samostatné prvky v rámci systému.
-Uzly vstupují do vztahů s ostatními prvky - tomu říkáme vazby.
-Síť je soubor uzlů a vztahů popisující určitý systém.
-Subsítě - částečně autonomní soubory.
+Teorie sítě formálně popisuje sítě - sadu uzlů (bodů, prvků) reprezentující zkoumané entity a sadu vazeb mezi těmito uzly reprezentující jejich vztahy. Síť konceptualizuje celkovou strukturu jako [2]. Teorie sítí také obsahuje metodologii zahrnující techniky pro zpracování a analýzu dat o síti a vizuální reprezentaci.[3]
+
+###Uzly
+Základní stavební jednotkou sítě jsou uzly. Jedná se o zkoumané entity v rámci výzkumu, ale pro síťovou analýzu nejsou důležité jejich konkrétní, individuální vlastnosti. Hlavní je jejich existence a role v síti a vztah k ostatním prvkům.
+
+Narozdíl od klasických metodologií v sociálních a humanitních vědách se v rámci síťové analýzy zpravidla nepracuje se vzorky, ale s celou populací. Jediným omezením co se týče počtu zkoumaných entit je ohraničení dané populace. Například zda zkoumáme sociální vztahy v rámci celé školy, nebo v rámci ročníku, či třídy. Ve všech případech budou zkoumány všechny entity splňující spadající do dané kategorie, ale dochází k výběru samotné kategorie. Jinýmy slovy vzorkování neprobíhá na úrovni zoumaných entit, ale na úrovni celé sítě - jaké školy, třídy či ročníky si výzkumník vybere, ovlivňuje výsledný soubor zkoumaných žáků.
+
+The use of whole populations as a way of selecting observations in (many) network studies makes it important for the analyst to be clear about the boundaries of each population to be studied, and how individual units of observation are to be selected within that population. Network data sets also frequently involve several levels of analysis, with actors embedded at the lowest level (i.e. network designs can be described using the language of "nested" designs).
+
+###Vazby
+Vazby jsou vztahy mezi jednotlivými uzly v síti.
+
+The other half of the design of network data has to do with what ties or relations are to be measured for the selected nodes. There are two main issues to be discussed here. In many network studies, all of the ties of a given type among all of the selected nodes are studied -- that is, a census is conducted. But, sometimes different approaches are used (because they are less expensive, or because of a need to generalize) that sample ties. There is also a second kind of sampling of ties that always occurs in network data. Any set of actors might be connected by many different kinds of ties and relations (e.g. students in a classroom might like or dislike each other, they might play together or not, they might share food or not, etc.). When we collect network data, we are usually selecting, or sampling, from among a set of kinds of relations that we might have measured.
+
+Given a set of actors or nodes, there are several strategies for deciding how to go about collecting measurements on the relations among them. At one end of the spectrum of approaches are "full network" methods. This approach yields the maximum of information, but can also be costly and difficult to execute, and may be difficult to generalize. At the other end of the spectrum are methods that look quite like those used in conventional survey research. These approaches yield considerably less information about network structure, but are often less costly, and often allow easier generalization from the observations in the sample to some larger population. There is no one "right" method for all research questions and problems.
+
+Full network methods require that we collect information about each actor's ties with all other actors. In essence, this approach is taking a census of ties in a population of actors -- rather than a sample. For example we could collect data on shipments of copper between all pairs of nation states in the world system from International Monetary Fund records; we could examine the boards of directors of all public corporations for overlapping directors; we could count the number of vehicles moving between all pairs of cities; we could look at the flows of e-mail between all pairs of employees in a company; we could ask each child in a play group to identify their friends.
+
+Because we collect information about ties between all pairs or dyads, full network data give a complete picture of relations in the population. Most of the special approaches and methods of network analysis that we will discuss in the remainder of this text were developed to be used with full network data. Full network data is necessary to properly define and measure many of the structural concepts of network analysis (e.g. between-ness).
+
+Full network data allows for very powerful descriptions and analyses of social structures. Unfortunately, full network data can also be very expensive and difficult to collect. Obtaining data from every member of a population, and having every member rank or rate every other member can be very challenging tasks in any but the smallest groups. The task is made more manageable by asking respondents to identify a limited number of specific individuals with whom they have ties. These lists can then be compiled and cross-connected. But, for large groups (say all the people in a city), the task is practically impossible.
+
+In a conventional actor-by-trait data set, each actor is described by many variables (and each variable is realized in many actors). In the most common social network data set of actor-by-actor ties, only one kind of relation is described. Just as we often are interested in multiple attributes of actors, we are often interested in multiple kinds of ties that connect actors in a network.
+
+In thinking about the network ties among faculty in an academic department, for example, we might be interested in which faculty have students in common, serve on the same committees, interact as friends outside of the workplace, have one or more areas of expertise in common, and co-author papers. The positions that actors hold in the web of group affiliations are multi-faceted. Positions in one set of relations may re-enforce or contradict positions in another (I might share friendship ties with one set of people with whom I do not work on committees, for example). Actors may be tied together closely in one relational network, but be quite distant from one another in a different relational network. The locations of actors in multi-relational networks and the structure of networks composed of multiple relations are some of the most interesting (and still relatively unexplored) areas of social network analysis.
+
+When we collect social network data about certain kinds of relations among actors we are, in a sense, sampling from a population of possible relations. Usually our research question and theory indicate which of the kinds of relations among actors are the most relevant to our study, and we do not sample -- but rather select -- relations. In a study concerned with economic dependency and growth, for example, I could collect data on the exchange of performances by musicians between nations -- but it is not really likely to be all that relevant.
+
+Vazby mezi uzly mohou také kromě své existence mít určitou sílu.  Síla poskytuje výzkumníkovi dodatečné informace o povaze vztahu, ale přináší s sebou i komplikace při jejich analýze a zpracování. Množství metod a nástrojů síťové analýzy bylo vyvjinuto a počítá s binárním modelem dat. Binární vazby jsou jednodušší pro zpracování a tak se může autor výzkumu rozhodnout pro transformaci kontinuálních dat na data binární. Výzkumík určí hranici a všechny vazby s hodnotou, které ji přesahují jsou považovány za existující. Tímto přístupem se ztrácí určité množství informací o zkoumaných vztazích, výměnou za zjednodušení zpracování a analýzy těchto vztahů.
+
+###Podsítě
+Jedním z hlavních zajmů při strukturální analýze jsou substruktury - podsítě - které se nacházejí v síti. Sledování vzorů
+Textura
+Shluk
+We can also look for sub-structure from the "top-down."  Looking at the whole network, we can think of sub-structures as areas of the graph that seem to be locally dense, but separated to some degree, from the rest of the graph.  This idea has been applied in a number of ways: components, blocks/cutpoints, K-cores, Lambda sets and bridges, factions, and f-groups will be discussed here.
+The "top down" perspective we'll follow in this chapter seeks to understand and describe whole populations by the "texture" of the relations that constrain its individual members.  Imagine one society in which extended kin groups live in separate villages at considerable distances from one another.  Most "texture" of the society will be one in which individuals have strong ties to relatively small numbers of others in local "clusters."  Compare this to a society where a large portion of the population lives in a single large city.  Here, the "texture" of social relations is quite different -- individuals may be embedded in smaller nuclear families of mating relations, but have diverse ties to neighbors, friends, co-workers, and others.
+
+Social network analysts have developed a number of tools for conceptualizing and indexing the variations in the kinds of structures that characterize populations.  In this chapter, we'll examine a few of these tools.
+
+The smallest social structure in which an individual can be embedded is a dyad (that is, a pair of actors).  For binary ties (present or absent), there are two possibilities for each pair in the population - either they have a tie, or they don't.  We can characterize the whole population in terms of the prevalence of these dyadic "structures."  This is what the density measure does.
+
+If we are considering a directed relation (A might like B, but B might not like A), there are three kinds of dyads (no tie, one likes the other but not vice versa, or both like the other).  The extent to which a population is characterized by "reciprocated" ties (those where each directs a tie to the other) may tell us about the degree of cohesion, trust, and social capital that is present.
+
+The smallest social structure that has the true character of a "society" is the triad - any "triple" {A, B, C} of actors.  Such a structure "embeds" dyadic relations in a structure where "other" is present along with "ego" and "alter."  The analysis of triads, and the prevalence of different types of triads in populations has been a staple of sociometry and social network analysis.  In (directed) triads, we can see the emergence of tendencies toward equilibrium and consistency -- institutionalization -- of social structures (balance and transitivity).  Triads are also the simplest structures in which we can see the emergence of hierarchy.
+
+Most of the time, most people interact with a fairly small set of others, many of whom know one another.  The extent of local "clustering" in populations can be quite informative about the texture of everyday life.  Actors are also embedded in "categorical social units" or "sub-populations" defined either by shared attributes or shared membership.  The extent to which these sub-populations are open or closed - the extent to which most individuals have most of their ties lives within the boundaries of these groups - may be a telling dimension of social structure.
+
+Porovnání
+Pro síťovou analýzu jsou nesmírně důležité porovnání uzlů, vazeb a struktur v rámci sítě a případně i mezi různými sítěmi.
+We can be a lot more precise in assessing similarity if we use the matrix representation of the network instead of the diagram. This also lets us use the computer to do some of the quite tedious jobs involved in calculating index numbers to assess similarity. The original data matrix has been reproduced below as figure 13.2.   Many of the features that were apparent in the diagram are also easy to grasp in the matrix. If we look across the rows and count out-degrees, and if we look down the columns (to count in-degree) we can see who the central actors are and who are the isolates. But, even more generally, we can see that two actors are structurally equivalent to extent that the profile of scores in their rows and columns are similar.  Finding automorphic equivalence and regular equivalence is not so simple.  But, since these other forms are less restrictive (and hence simplifications of the structural classes), we begin by measuring how similar each actor's ties are to all other actors.
+
+Two actors may be said to be structurally equivalent to if they have the same patterns of ties with other actors. This means that the entries in the rows and columns for one actor are identical to those of another. If the matrix were symmetric, we would need only to scan pairs of rows (or columns). But, since these data are on directed ties, we should examine the similarity of sending and receiving of ties (of course, we might be interested in structural equivalence with regard to only sending, or only receiving ties). We can see the similarity of the actors if we expand the matrix in figure 13.2  by listing the row vectors followed by the column vectors for each actor as a single column, as we have in figure 13.3.
+
+Regular equivalence is the least restrictive of the three most commonly used definitions of equivalence. It is, however, probably the most important for the sociologist. This is because the concept of regular equivalence, and the methods used to identify and describe regular equivalence sets correspond quite closely to the sociological concept of a "role." The notion of social roles is a centerpiece of most sociological theorizing.
+
+Formally, "Two actors are regularly equivalent if they are equally related to equivalent others." (Borgatti, Everett, and Freeman, 1996: 128). That is, regular equivalence sets are composed of actors who have similar relations to members of other regular equivalence sets. The concept does not refer to ties to specific other actors, or to presence in similar sub-graphs; actors are regularly equivalent if they have similar ties to any members of other sets.
+
+The concept is actually more easy to grasp intuitively than formally. Susan is the daughter of Inga. Deborah is the daughter of Sally. Susan and Deborah form a regular equivalence set because each has a tie to a member of the other set. Inga and Sally form a set because each has a tie to a member of the other set. In regular equivalence, we don't care which daughter goes with which mother; what is identified by regular equivalence is the presence of two sets (which we might label "mothers" and "daughters"), each defined by its relation to the other set. Mothers are mothers because they have daughters; daughters are daughters because they have mothers.
+
+Vizuální reprezentace
+A graph (sometimes called a sociogram) is composed of nodes (or actors or points) connected by edges (or relations or ties). A graph may represent a single type of relations among the actors (simplex), or more than one kind of relation (multiplex). Each tie or relation may be directed (i.e. originates with a source actor and reaches a target actor), or it may be a tie that represents co-occurrence, co-presence, or a bonded-tie between the pair of actors. Directed ties are represented with arrows, bonded-tie relations are represented with line segments. Directed ties may be reciprocated (A chooses B and B chooses A); such ties can be represented with a double-headed arrow. The strength of ties among actors in a graph may be nominal or binary (represents presence or absence of a tie); signed (represents a negative tie, a positive tie, or no tie); ordinal (represents whether the tie is the strongest, next strongest, etc.); or valued (measured on an interval or ratio level). In speaking the position of one actor or node in a graph to other actors or nodes in a graph, we may refer to the focal actor as "ego" and the other actors as "alters."
+
+1. BRUGHMANS, T. 2012. Thinking through networks: a review of formal network methods in archaeology. Journal of Archaeological Method and Theory.
+2. Wasserman, S. and K. Faust, 1994, Social Network Analysis. Cambridge: Cambridge University Press.
+3. Steve Borgatti: http://216.247.125.88/networks/whatis.htm
+
 
 #Filmová forma
+Filmová forma je systém organizace jednotlivých prvků ve filmu. Způsob jakým spolu tyto prvky interagují - jaký spolu mají vztah -
+
+We can go further in describing how an artwork cues us to perform activities. These cues are not simply random; they are organized into systémů. Let us take a system as any set of elements that depend on and affect one another.
+As with each of these instances, a film is not simply a random batch of ele- ments. Like all artworks, a film has form. By film form, in its broadest sense, we mean the overall system of relations that we can perceive among the elements in the whole film. In this part of the book and in Part Three (on film style), we shall be sllrveying the elements that interact with one another. Since the viewer makes sense of the film by recogntzrng these elements and reacting to them in various ways, we'll also be considering how form and style participate in the spectator's expenence.
 Film je formálním systémem - skládá se s navzájem propojených prvků, které společně tvoří výsledný divácký zážitek.
+
+Precisely because artworks are human creations and because the artist lives in history and society, he or she cannot avoid relating the work, in some way, to other works and to aspects of the world in general. A tradition, & dominant style, a popu- lar form-some sLlch elements will be common to several different artworks. These common traits are usually called conventions. From the spectator's standpoint, the perception of artistic form will arise from cues within the work and from prior experiences-experiences derived from everyday life and from other artworks. You were able to play the ABAC game be- caLrse you had learned the alphabet. You may have learned it in everyday life (in a
 Forma filmu je směřovány určitými pravidly - kulturním kontextem.
 V kontextu těchto kulturních pravidel má film i své vlastní vnitřní struktury, které vycházejí z přání tvůrců vyvolat určitý divácký zážitek.
 ## Funkce
@@ -75,13 +163,23 @@ Pro opakování formálních prvků se používá pojem motiv.
 Opakující se motivy spolu mohou tvořit složitější struktury, které společně . Například postava může mít svoji hudební melodii, která zazní když je v záběru, může být zabírána z určitého úhlu, tak aby dohromady tyto prvky pomáhaly dokreslit charakter postavy nebo nabízet divákovi určité čtení.
 Opakování je důležitým formálním principem, protože umožňuje a usnadňuje divákovi vytvářet a naplňovat očekávání při sledování filmu.
 
-## Variace a rozdílnost
+##Variace a rozdílnost
 Pro udržení divácké pozornosti zároveň není možné, aby se neustále pravidelně opakovaly stejné prvky. Občas se musí objevit rozdílné prvky nebo variace předchozích prvků.
 Variace je dalším důležitým formálním principem.
 Filmová forma zároveň využívá stabilitu a familiaritu opakování a zároveň vyžaduje určité množství variace.
 
 This means that although motifs (scenes, settings, actions, objects, stylistic de- vices) may be repeated, those motifs will seldom be repeated exactly. Variation will appear.
 Repetition and variation are two sides of the same coin. To notice one is to notice the other. In thinking about films, we ought to look for sin-rilarities urtcl differences. Shuttling between the two, we can point out motifs and contrast the changes they undergo, recognize parallelisms as repetition, and still spot crucial variations.
+
+##Vývoj
+One way to keep ourselves aware of how similarity and difference operate in film form is to look for principles of development from part to part. Most feature-length films are composed of several developmental patterns.
+Film angažuje naše emoce a očekávání dynamickým způsobem. Trvalé napětí mezi podobností a rozdílností, mezi opakováním a variací vede diváka k aktivnímu a měnícímu se vztahu k formálnímu systému filmu. Forma tvaruje divácký zážitek.
+
+##Forma a styl
+Forma v sobě zahrnuje veškeré použité prvky v rámci filmu a jejich vztahy. V některých případech jsou však pro daný výzkum relevantní pouze určité vzorky. Ve formálním systému filmu, můžeme rozlišovat několik základních kategorií prvků, kterým souhrnně říkáme styl.
+The network analyst tends to see individual people nested within networks of face-to-face relations with other persons. Often these networks of interpersonal relations become "social facts" and take on a life of their own. A family, for example, is a network of close relations among a set of people. But this particular network has been institutionalized and given a name and reality beyond that of its component nodes. Individuals in their work relations may be seen as nested within organizations; in their leisure relations they may be nested in voluntary associations. Neighborhoods, communities, and even societies are, to varying degrees, social entities in and of themselves. And, as social entities, they may form ties with the individuals nested within them, and with other social entities.
+
+Often network data sets describe the nodes and relations among nodes for a single bounded population. If I study the friendship patterns among students in a classroom, I am doing a study of this type. But a classroom exists within a school - which might be thought of as a network relating classes and other actors (principals, administrators, librarians, etc.). And most schools exist within school districts, which can be thought of as networks of schools and other actors (school boards, research wings, purchasing and personnel departments, etc.). There may even be patterns of ties among school districts (say by the exchange of students, teachers, curricular materials, etc.).
 
 #Střih
 Střihová skladba
@@ -113,6 +211,10 @@ Pro účely této práce tedy existující typy rozšíříme tak aby mohly být
 Pro potřeby zkoumání následujících záběrů je často minimálně stejně jako jejich podobnost důležitá také jejich rozdílnost.
 Pokud však porovnáváme záběry napříč filmem jejich rozdílnost není zajímavá.
 Následují záběry
+
+The boundaries of the populations studied by network analysts are of two main types. Probably most commonly, the boundaries are those imposed or created by the actors themselves. All the members of a classroom, organization, club, neighborhood, or community can constitute a population. These are naturally occurring clusters, or networks. So, in a sense, social network studies often draw the boundaries around a population that is known, a priori, to be a network. Alternatively, a network analyst might take a more "demographic" or "ecological" approach to defining population boundaries. We might draw observations by contacting all of the people who are found in a bounded spatial area, or who meet some criterion (having gross family incomes over $1,000,000 per year). Here, we might have reason to suspect that networks exist, but the entity being studied is an abstract aggregation imposed by the investigator -- rather than a pattern of institutionalized social action that has been identified and labeled by its participants.
+
+Network analysts can expand the boundaries of their studies by replicating populations. Rather than studying one neighborhood, we can study several. This type of design (which could use sampling methods to select populations) allows for replication and for testing of hypotheses by comparing populations. A second, and equally important way that network studies expand their scope is by the inclusion of multiple levels of analysis, or modalities.
 
 #Struktura střihové skladby
 Základním způsobem jak chápat střihovou skladbu je jako lineární sled záběrů. Záběry ve filmu na sebe postupně navazují a vstupují tedy do vazebního vztahu se svým předcházejícím a násůedujícím sousedem. Pokud bychom si takovouto strukturu chtěli představit jednalo by se o soubor uzlů v řadě a pro každý film by byla stejná.
